@@ -1,0 +1,12 @@
+.header-logo {
+  display: flex;
+  justify-content: center;
+
+  @media only screen and (max-width: 576px) {
+    justify-content: flex-start;
+
+    img {
+      max-width: 100px;
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.footer-socials {
+  display: flex;
+  margin-bottom: 15px;
+  gap: 24px;
+}
+
+.footer-socials a {
+  font-size: 20px;
+  color: #6b7280;
+  transition: color 0.3s;
+  display: flex;
+}
+
+.footer-socials a:hover {
+  color: #111827;
+}

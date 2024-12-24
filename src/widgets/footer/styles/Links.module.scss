@@ -1,0 +1,15 @@
+.footer-links {
+  list-style: none;
+  padding: 0;
+  gap: 15px;
+
+  li {
+    padding: 8px 0;
+
+    a {
+      text-decoration: none;
+      color: #676767;
+      font-size: 16px;
+    }
+  }
+}

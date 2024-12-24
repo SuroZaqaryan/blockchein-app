@@ -1,0 +1,96 @@
+.wrapper, .container {
+  position: absolute;
+  inset: 0;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.grid {
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(150px, 2fr));
+  grid-template-rows: repeat(2, minmax(150px, 2fr));
+  justify-items: center;
+
+  > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: blur(150px);
+    transform: scale(1.5);
+    opacity: .5;
+  }
+
+  .shape-1 {
+    width: 400px;
+    height: 400px;
+    border-radius: 100%;
+    position: relative;
+    animation: one 7s infinite;
+  }
+
+  .shape-2 {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    position: relative;
+    animation: two 7s infinite;
+  }
+
+  @keyframes one {
+    0% {
+      left: 0;
+      top: 0;
+    }
+    25% {
+      left: 100px;
+      top: 70px;
+    }
+    50% {
+      left: 20px;
+      top: 150px;
+    }
+    75% {
+      left: 50px;
+      top: 100px;
+    }
+    100% {
+      left: 0;
+      top: 0;
+    }
+  }
+
+  @keyframes two {
+    0% {
+      left: 0;
+      top: 0;
+    }
+    25% {
+      left: 50px;
+      top: 10px;
+    }
+    50% {
+      left: 100px;
+      top: 50px;
+    }
+    75% {
+      left: 50px;
+      top: 100px;
+    }
+    100% {
+      left: 0;
+      top: 0;
+    }
+  }
+
+  .bg-success-200 {
+    background-color: #3AC922;
+  }
+
+  .bg-success-100 {
+    background-color: #B2F1DE;
+  }
+}
+

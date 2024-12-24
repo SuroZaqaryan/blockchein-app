@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  align-items: center;
+  min-height: 100px;
+  border-bottom: 1px solid #CDD2DD;
+  padding: 0 62px;
+  gap: 32px;
+
+  > div {
+    flex: 1;
+  }
+
+  @media only screen and (max-width: 768px) {
+    padding: 0 16px;
+  }
+
+  @media only screen and (max-width: 576px) {
+    .empty {
+      display: none;
+    }
+  }
+}

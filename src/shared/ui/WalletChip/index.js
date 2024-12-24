@@ -1,0 +1,1 @@
+export { WalletChip } from './ui/WalletChip';

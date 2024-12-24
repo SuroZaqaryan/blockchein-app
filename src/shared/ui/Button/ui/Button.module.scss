@@ -1,0 +1,43 @@
+.button {
+  max-width: 200px;
+  width: 100%;
+  padding: 12px 32px;
+  background-color: #08D899;
+  box-shadow: 0 8px 16px 0 #08D89933;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+
+  span {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+    white-space: nowrap;
+    color: #fff;
+  }
+
+  .loader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+  }
+
+  &:hover {
+    background-color: #B2F1DE;
+    box-shadow: 0 0 10px 0 #84848426;
+  }
+
+  &:focus {
+    border: 2px solid #9873FF;
+  }
+}
+
+.isLoading {
+  background-color: #E7EBF1;
+
+  span {
+    color: #949697;
+  }
+}

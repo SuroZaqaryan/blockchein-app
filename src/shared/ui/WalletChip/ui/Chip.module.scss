@@ -1,0 +1,27 @@
+.chip {
+  max-width: 215px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 10px 12px;
+  background-color: #fff;
+  border: none;
+  text-align: center;
+  border-radius: 20px;
+  transition: 0.2s;
+  cursor: pointer;
+
+  > div {
+    display: flex;
+  }
+
+  span {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 23px;
+    white-space: nowrap;
+    color: #08D899;
+  }
+}

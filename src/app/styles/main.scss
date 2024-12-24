@@ -1,0 +1,26 @@
+body {
+  position: relative;
+  padding: 0;
+  height: 100vh;
+  font-weight: normal;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Manrope", serif;
+
+  &::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #d5e2fe;
+    border-radius: 4px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: rgba(46, 67, 108, 0.1);
+  }
+}
