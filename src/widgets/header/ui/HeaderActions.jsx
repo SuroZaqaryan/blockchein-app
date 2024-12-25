@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import { connectWallet, checkWalletConnection } from '../model/wallet.js';
+import { connectWallet, checkWalletConnection } from '../model/Wallet.js';
 import { formatAddress } from '../lib/formatAddress';
 import styles from '../styles/Action.module.scss';
 import { Button } from 'shared/ui/Button';
